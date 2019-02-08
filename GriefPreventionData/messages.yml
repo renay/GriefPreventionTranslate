@@ -1,185 +1,169 @@
-# Use a YAML editor like NotepadPlusPlus to edit this file.  
+TRA# Use a YAML editor like NotepadPlusPlus to edit this file.  
 # After editing, back up your changes before reloading the server in case you made a syntax error.  
 # Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
 Messages:
   RespectingClaims:
-    Text: Now respecting claims.
+    Text: Теперь соблюдаем приват. 
   IgnoringClaims:
-    Text: Now ignoring claims.
+    Text: Теперь игнорируем приват.
   SuccessfulAbandon:
-    Text: Claims abandoned.  You now have {0} available claim blocks.
-    Notes: '0: remaining blocks'
+    Text: Приват заброшен. Теперь у вас есть {0} доступных блоков привата.
+    Notes: '0: оставшихся блоков'
   RestoreNatureActivate:
-    Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims
-      to stop.
+    Text: Готовы восстановить природу! Щелкните правой кнопкой мыши, чтобы восстановить природу, и используйте /BasicClaims, чтобы остановить.
   RestoreNatureAggressiveActivate:
-    Text: Aggressive mode activated.  Do NOT use this underneath anything you want
-      to keep!  Right click to aggressively restore nature, and use /BasicClaims to
-      stop.
+    Text: Агрессивный режим активирован. НЕ используйте это под тем, что вы хотите сохранить! Щелкните правой кнопкой мыши, чтобы агрессивно восстановить природу, и используйте /BasicClaims, чтобы остановить.
   FillModeActive:
-    Text: Fill mode activated with radius {0}.  Right click an area to fill.
-    Notes: '0: fill radius'
+    Text: Режим заполнения активирован с радиусом {0}. Щелкните правой кнопкой мыши область, чтобы заполнить.
+    Notes: '0: радиус заполнения'
   TransferClaimPermission:
-    Text: That command requires the administrative claims permission.
+    Text: Эта команда требует разрешения административных приватов.
   TransferClaimMissing:
-    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+    Text: Здесь нет привата. Встаньте в административный приват, который вы хотите передать.
   TransferClaimAdminOnly:
-    Text: Only administrative claims may be transferred to a player.
+    Text: Только административные приваты могут быть переданы игроку.
   PlayerNotFound2:
-    Text: No player by that name has logged in recently.
+    Text: Ни один игрок с таким именем не вошел в систему недавно.
   TransferTopLevel:
-    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside
-      of the subdivision and try again.
+    Text: Могут быть переданы только приваты высшего уровня (не подразделения). Встаньте за пределы подразделения и попробуйте снова.
   TransferSuccess:
-    Text: Claim transferred.
+    Text: Приват перенесен.
   TrustListNoClaim:
-    Text: Stand inside the claim you're curious about.
+    Text: Оставайтесь в привате, который вас интересует.
   ClearPermsOwnerOnly:
-    Text: Only the claim owner can clear all permissions.
+    Text: Только владелец привата может очистить все разрешения.
   UntrustIndividualAllClaims:
-    Text: Revoked {0}'s access to ALL your claims.  To set permissions for a single
-      claim, stand inside it.
-    Notes: '0: untrusted player'
+    Text: Отменен доступ {0} ко ВСЕМ вашим приватам. Чтобы установить разрешения для одного привата, станьте внутри него.
+    Notes: '0: недоступно игроку'
   UntrustEveryoneAllClaims:
-    Text: Cleared permissions in ALL your claims.  To set permissions for a single
-      claim, stand inside it.
+    Text: Отменены разрешения во ВСЕХ ваших приватах. Чтобы установить разрешения для одного привата, станьте внутри него.
   NoPermissionTrust:
-    Text: You don't have {0}'s permission to manage permissions here.
-    Notes: '0: claim owner''s name'
+    Text: У вас нет {}'s права для управления разрешениями здесь.
+    Notes: '0: владельцы привата'
   ClearPermissionsOneClaim:
-    Text: Cleared permissions in this claim.  To set permission for ALL your claims,
-      stand outside them.
+    Text: Отменены разрешения в этом привате. Чтобы установить разрешение для ВСЕХ ваших приватов, стойте вне их.
   UntrustIndividualSingleClaim:
-    Text: Revoked {0}'s access to this claim.  To set permissions for a ALL your claims,
-      stand outside them.
-    Notes: '0: untrusted player'
+    Text: Убран доступ {0} к этому привату. Чтобы установить разрешения для ВСЕХ ваших приватов, оставайтесь вне их.
+    Notes: '0: недоступно игроку'
   OnlySellBlocks:
-    Text: Claim blocks may only be sold, not purchased.
+    Text: Блоки привата могут быть проданы, но не куплены.
   BlockPurchaseCost:
-    Text: Each claim block costs {0}.  Your balance is {1}.
-    Notes: '0: cost of one block; 1: player''s account balance'
+    Text: Каждый блок привата стоит {0}. Ваш баланс равен {1}.
+    Notes: '0: стоимость одного блока; 1: баланс счета игрока'
   ClaimBlockLimit:
-    Text: You've reached your claim block limit.  You can't purchase more.
+    Text: Вы достигли лимита блоков привата. Вы не можете купить больше.
   InsufficientFunds:
-    Text: You don't have enough money.  You need {0}, but you only have {1}.
-    Notes: '0: total cost; 1: player''s account balance'
+    Text: Тебе не хватает денег. Вам нужно {0}, но у вас есть только {1}.
+    Notes: '0: общая стоимость; 1: баланс счета игрока'
   PurchaseConfirmation:
-    Text: Withdrew {0} from your account.  You now have {1} available claim blocks.
-    Notes: '0: total cost; 1: remaining blocks'
+    Text: Снял {0} с вашего аккаунта. Теперь у вас есть {1} доступных блоков привата.
+    Notes: '0: общая стоимость; 1: оставшиеся блоки'
   OnlyPurchaseBlocks:
-    Text: Claim blocks may only be purchased, not sold.
+    Text: Блоки привата могут быть только куплены, но не проданы.
   BlockSaleValue:
-    Text: Each claim block is worth {0}.  You have {1} available for sale.
-    Notes: '0: block value; 1: available blocks'
+    Text: Каждый блок привата стоит {0}. У вас есть {1} для продажи.
+    Notes: '0: кол-во блоков; 1: доступные блоки'
   NotEnoughBlocksForSale:
-    Text: You don't have that many claim blocks available for sale.
+    Text: У вас не так много блоков привата на продажу.
   BlockSaleConfirmation:
-    Text: Deposited {0} in your account.  You now have {1} available claim blocks.
-    Notes: '0: amount deposited; 1: remaining blocks'
+    Text: Взос {0} на ваш аккаунт. Теперь у вас есть {1} доступных блоков претензий.
+    Notes: '0: сумма депозита; 1: оставшихся блоков'
   AdminClaimsMode:
-    Text: Administrative claims mode active.  Any claims created will be free and
-      editable by other administrators.
+    Text: Режим административных приватов активен. Любые созданные приваты будут бесплатными и могут быть изменены другими администраторами.
   BasicClaimsMode:
-    Text: Returned to basic claim creation mode.
+    Text: Вернулся к основному режиму создания приватов.
   SubdivisionMode:
-    Text: Subdivision mode.  Use your shovel to create subdivisions in your existing
-      claims.  Use /basicclaims to exit.
+    Text: Режим подразделения. Используйте свою лопату для создания подразделений в существующих приватах. Используйте /basicclaims для выхода.
   SubdivisionVideo2:
-    Text: 'Click for Subdivision Help: {0}'
-    Notes: 0:video URL
+    Text: 'Щелкните для получения справки по подразделению: {0}'
+    Notes: '0: URL видео'
   DeleteClaimMissing:
-    Text: There's no claim here.
+    Text: Здесь нет приватов.
   DeletionSubdivisionWarning:
-    Text: This claim includes subdivisions.  If you're sure you want to delete it,
-      use /DeleteClaim again.
+    Text: Этот приват включает в себя подразделения. Если вы уверены, что хотите удалить его, снова используйте /DeleteClaim.
   DeleteSuccess:
-    Text: Claim deleted.
+    Text: Приват удален.
   CantDeleteAdminClaim:
-    Text: You don't have permission to delete administrative claims.
+    Text: У вас нет разрешения на удаление административных приватов.
   DeleteAllSuccess:
-    Text: Deleted all of {0}'s claims.
-    Notes: '0: owner''s name'
+    Text: Удалены все приваты {0}.
+    Notes: '0: владельцы привата'
   NoDeletePermission:
-    Text: You don't have permission to delete claims.
+    Text: У вас нет разрешения на удаление привата.
   AllAdminDeleted:
-    Text: Deleted all administrative claims.
+    Text: Удалены все административные приваты.
   AdjustBlocksSuccess:
-    Text: 'Adjusted {0}''s bonus claim blocks by {1}.  New total bonus blocks: {2}.'
-    Notes: '0: player; 1: adjustment; 2: new total'
+    Text: 'Скорректированы бонусные приваты {0} к {1}. Всего новых бонусных блоков: {2}.'
+    Notes: '0: игрок; 1: скорректированы; 2: новый итог'
   NotTrappedHere:
-    Text: You can build here.  Save yourself.
+    Text: Вы можете построить здесь. Спаси себя.
   RescuePending:
-    Text: If you stay put for 10 seconds, you'll be teleported out.  Please wait.
+    Text: Если вы останетесь на месте в течение 10 секунд, вы будете телепортированы. Пожалуйста, подождите.
   NonSiegeWorld:
-    Text: Siege is disabled here.
+    Text: Осада отключена здесь.
   AlreadySieging:
-    Text: You're already involved in a siege.
+    Text: Вы уже вовлечены в осаду.
   NotSiegableThere:
-    Text: '{0} isn''t protected there.'
-    Notes: '0: defending player'
+    Text: '{0} там не защищен.'
+    Notes: '0: защищающийся игрок'
   SiegeTooFarAway:
-    Text: You're too far away to siege.
+    Text: Вы слишком далеко для осады..
   NoSiegeYourself:
-    Text: You cannot siege yourself, don't be silly
+    Text: Вы не можете начать осаду у себя, не будь глупым
   NoSiegeDefenseless:
-    Text: That player is defenseless.  Go pick on somebody else.
+    Text: Этот игрок беззащитен. Иди, выбери кого-нибудь еще.
   AlreadyUnderSiegePlayer:
-    Text: '{0} is already under siege.  Join the party!'
-    Notes: '0: defending player'
+    Text: '{0} уже в осаде. Присоединяйся к вечеринке!'
+    Notes: '0: защищающийся игрок'
   AlreadyUnderSiegeArea:
-    Text: That area is already under siege.  Join the party!
+    Text: Эта область уже находится в осаде. Присоединяйся к вечеринке!
   NoSiegeAdminClaim:
-    Text: Siege is disabled in this area.
+    Text: Осада отключена в этой области.
   SiegeOnCooldown:
-    Text: You're still on siege cooldown for this defender or claim.  Find another
-      victim.
+    Text: Вы все еще находитесь в осаде для этого защитника или привата. Найдите другую жертву.
   SiegeAlert:
-    Text: You're under siege!  If you log out now, you will die.  You must defeat
-      {0}, wait for him to give up, or escape.
-    Notes: '0: attacker name'
+    Text: Вы в осаде! Если вы выйдете сейчас, вы умрете. Вы должны победить {0}, ждать, пока он сдастся, или сбежать.
+    Notes: '0: имя злоумышленника'
   SiegeConfirmed:
-    Text: The siege has begun!  If you log out now, you will die.  You must defeat
-      {0}, chase him away, or admit defeat and walk away.
-    Notes: '0: defender name'
+    Text: Осада началась! Если вы выйдете сейчас, вы умрете. Вы должны победить {0}, прогнать его или признать поражение и уйти.
+    Notes: '0: имя защитника'
   AbandonClaimMissing:
-    Text: Stand in the claim you want to delete, or consider /AbandonAllClaims.
+    Text: Встаньте в приват, который вы хотите удалить, или рассмотрите / AbandonAllClaims.
   NotYourClaim:
-    Text: This isn't your claim.
+    Text: Это не ваш приват.
   DeleteTopLevelClaim:
-    Text: To delete a subdivision, stand inside it.  Otherwise, use /AbandonTopLevelClaim
-      to delete this claim and all subdivisions.
+    Text: Чтобы удалить подразделение, встаньте внутри него. В противном случае используйте /AbandonTopLevelClaim, чтобы удалить этот приват и все его подразделения.
   AbandonSuccess:
-    Text: Claim abandoned.  You now have {0} available claim blocks.
-    Notes: '0: remaining claim blocks'
+    Text: Приват заброшен. Теперь у вас есть {0} доступных блоков претензий.
+    Notes: '0: оставшиеся блоки привата'
   CantGrantThatPermission:
-    Text: You can't grant a permission you don't have yourself.
+    Text: У вас нет разрешения на это действие
   GrantPermissionNoClaim:
-    Text: Stand inside the claim where you want to grant permission.
+    Text: Встаньте в приват, где вы хотите дать разрешение.
   GrantPermissionConfirmation:
-    Text: Granted {0} permission to {1} {2}.
-    Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
+    Text: Предоставлено разрешение {0} на {1} {2}.
+    Notes: '0: целевой игрок; 1: описание разрешения; 2: область действия'
   ManageUniversalPermissionsInstruction:
-    Text: To manage permissions for ALL your claims, stand outside them.
+    Text: Чтобы управлять разрешениями на ВСЕХ ваших приватов, стойте за их пределами.
   ManageOneClaimPermissionsInstruction:
-    Text: To manage permissions for a specific claim, stand inside it.
+    Text: Чтобы управлять разрешениями для конкретного привата, станьте внутри нее.
   CollectivePublic:
-    Text: the public
-    Notes: as in 'granted the public permission to...'
+    Text: общее
+    Notes: как в 'предоставил общественное разрешение на ...'
   BuildPermission:
-    Text: build
+    Text: строить
   ContainersPermission:
-    Text: access containers and animals
+    Text: Доступ к сундукам и животным
   AccessPermission:
-    Text: use buttons and levers
+    Text: используйте кнопки и рычаги
   PermissionsPermission:
-    Text: manage permissions
+    Text: управлять разрешениями
   LocationCurrentClaim:
-    Text: in this claim
+    Text: в этом привате
   LocationAllClaims:
-    Text: in all your claims
+    Text: во всех ваших приватах
   PvPImmunityStart:
-    Text: You're protected from attack by other players as long as your inventory
-      is empty.
+    Text: Вы защищены от нападения других игроков, пока ваш инвентарь пуст.
   SiegeNoDrop:
     Text: You can't give away items while involved in a siege.
   DonateItemsInstruction:
@@ -337,7 +321,7 @@ Messages:
     Notes: '0: attacker name'
   NoContainersPermission:
     Text: You don't have {0}'s permission to use that.
-    Notes: '0: owner''s name.  containers also include crafting blocks'
+    Notes: '0: владельцы привата.  containers also include crafting blocks'
   OwnerNameForAdminClaims:
     Text: an administrator
     Notes: as in 'You don't have an administrator's permission to build here.'
@@ -408,10 +392,10 @@ Messages:
     Text: 'Warning: Pistons won''t move blocks outside land claims.'
   SoftMuted:
     Text: Soft-muted {0}.
-    Notes: '0: The changed player''s name.'
+    Notes: '0: Изменено имя игрока.'
   UnSoftMuted:
     Text: Un-soft-muted {0}.
-    Notes: '0: The changed player''s name.'
+    Notes: '0: Изменено имя игрока.'
   DropUnlockAdvertisement:
     Text: Other players can't pick up your dropped items unless you /UnlockDrops first.
   PickupBlockedExplanation:
@@ -455,7 +439,7 @@ Messages:
   NoBuildPortalPermission:
     Text: You can't use this portal because you don't have {0}'s permission to build
       an exit portal in the destination land claim.
-    Notes: '0: Destination land claim owner''s name.'
+    Notes: '0: Destination land claim владельцы привата.'
   ShowNearbyClaims:
     Text: Found {0} land claims.
     Notes: '0: Number of claims found.'
